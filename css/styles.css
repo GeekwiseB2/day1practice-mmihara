@@ -14,5 +14,35 @@ h3 {
   font-size: 2rem;
   font-weight: 700;
   padding: 5px;
+}
+
+.colorsA {
+  background-color: white;
+}
+
+.colorsB {
   background-color: #f5f5f5;
+}
+
+/*==========MEDIA QUERIES==========*/
+
+@media screen and (max-width: 375px) {
+  .colorsA {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .colorsB {
+    background-color: #fff68f;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .colorsA {
+    background-color: #ffccaa;
+  }
+
+  .colorsB {
+    background-color: #aab3ff;
+  }
 }
